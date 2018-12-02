@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn_pares").click(function(){
+        $(".par").toggle();
+    });
+    $("#btn_impares").click(function(){
+        $(".impar").toggle();
+    });
+});
+</script>
+</head>
+<body>
+
+<h2>This is a heading</h2>
+
+<p class="impar">1</p>
+<p class="par">2</p>
+<p class="impar">3</p>
+<p class="par">4</p>
+<p class="impar">5</p>
+<p class="par">6</p>
+<p class="impar">7</p>
+<p class="par">8</p>
+<p class="impar">9</p>
+<p class="par">10</p>
+<button id="btn_pares">Ocultar pares</button><button id="btn_impares">Ocultar ímpares</button>
+
+</body>
+</html>
